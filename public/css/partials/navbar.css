@@ -1,0 +1,38 @@
+@import url('../variables.css');
+
+.navbar {
+    background-color: var(--color-secondary);
+    height: 90px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+}
+
+.navbar-container {
+    margin: 2.5em auto;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar-container nav ul {
+    display: flex;
+    justify-content: space-between; /* evenly across full width */
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-container nav ul li {
+    flex: 1; /* each li takes equal space */
+    display: flex;
+    justify-content: center; /* center the <a> inside li */
+}
+
+.navbar-container nav ul li a img {
+    width: 30px;
+    height: auto;
+    display: block;
+}

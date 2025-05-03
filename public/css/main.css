@@ -1,0 +1,7 @@
+@import url('partials/navbar.css');
+@import url('variables.css');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
